@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>438</height>
+    <height>506</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,13 +26,13 @@
       <x>0</x>
       <y>0</y>
       <width>401</width>
-      <height>40</height>
+      <height>58</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Arial</family>
-      <pointsize>16</pointsize>
+      <pointsize>28</pointsize>
       <bold>true</bold>
      </font>
     </property>
@@ -51,7 +51,7 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>338</y>
+      <y>406</y>
       <width>150</width>
       <height>100</height>
      </rect>
@@ -80,7 +80,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>338</y>
+      <y>406</y>
       <width>150</width>
       <height>100</height>
      </rect>
@@ -106,7 +106,7 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>239</y>
+      <y>307</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -135,7 +135,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>239</y>
+      <y>307</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -164,7 +164,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>239</y>
+      <y>307</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -193,7 +193,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>139</y>
+      <y>207</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -222,7 +222,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>139</y>
+      <y>207</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -251,7 +251,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>139</y>
+      <y>207</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -280,7 +280,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>40</y>
+      <y>108</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -309,7 +309,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>100</x>
-      <y>40</y>
+      <y>108</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -338,7 +338,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>40</y>
+      <y>108</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -367,7 +367,7 @@ color: rgb(2, 188, 255);</string>
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>338</y>
+      <y>406</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -393,7 +393,7 @@ color: rgb(0, 170, 0);</string>
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>239</y>
+      <y>307</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -419,7 +419,7 @@ color: rgb(0, 170, 0);</string>
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>139</y>
+      <y>207</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -445,7 +445,7 @@ color: rgb(0, 170, 0);</string>
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>40</y>
+      <y>108</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -465,6 +465,32 @@ color: rgb(0, 170, 0);</string>
     </property>
     <property name="text">
      <string>/</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCe">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>58</y>
+      <width>401</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>24</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 24pt &quot;Arial&quot;;
+background-color: rgb(255, 85, 255);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>CE</string>
     </property>
    </widget>
   </widget>
