@@ -7,6 +7,7 @@
 
 
 from PyQt6 import QtCore, QtGui, QtWidgets
+from PyQt6.QtWidgets import QMessageBox
 
 
 class Ui_MainWindow(object):
@@ -303,9 +304,23 @@ class Ui_MainWindow(object):
             self.result.setText(self.result.text() + number)
 
     def Result(self):
-        res = eval(self.result.text())#eval - вычисляет строковое выражение
-        self.result.setText(str(res))
+        str_ = self.result.text()
+        if str_.find("/0") == True:
+             error = QMessageBox()
+             error.setWindowTitle("Ошибка!")
+             error.setText("На ноль делить нельзя!")
+             error.setIcon(QMessageBox.Icon.Warning)
+             error.exec()
+             self.result.setText("0")
+        else:
+                res = eval(self.result.text())#eval - вычисляет строковое выражение
+                self.result.setText(str(res))
 
+             #error = QMessageBox()
+             #error.setWindowTitle("Ошибка!")
+             #error.setText("Сейчас это невозможно!")
+             #error.exec()
+        
 
 
 if __name__ == "__main__":
